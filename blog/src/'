@@ -1,0 +1,3 @@
+pub struct Post {
+    state: Option<box<dyn state>>;
+}
